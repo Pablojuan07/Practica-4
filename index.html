@@ -35,9 +35,13 @@
         font-style: normal;
         }
         :root{
-            --bg-color: rgb(0, 0, 0);
+            --bg-color: rgb(255, 0, 0);
             --primary-color: rgb(255, 254, 254) ;
+            --secundary-color: rgb(0, 0, 0) ; 
         }
+        body:first-child {
+        padding: 100px;
+        }   
         ul li{
             list-style-type: none;
             display: inline-block;
@@ -51,6 +55,11 @@
            color: var(--primary-color);
            font-size: 25px;
            font-family: "Lato", sans-serif;
+           padding: 20px;
+        }
+        header, main, footer {
+        background-color: var(--secundary-color);
+        padding: 20px;
         }
         header{
             text-align: center;
